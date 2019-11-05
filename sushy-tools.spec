@@ -31,6 +31,7 @@ BuildRequires:    python2-pytest
 BuildRequires:    python2-oslotest
 BuildRequires:    python2-libvirt
 BuildRequires:    python2-munch
+BuildRequires:    python2-openstackclient
 BuildRequires:    python2-pbr >= 2.0.0
 BuildRequires:    python2-flask >= 1.0.2
 BuildRequires:    python2-requests >= 2.14.2
@@ -60,6 +61,7 @@ BuildRequires:    python3-pytest
 BuildRequires:    python3-oslotest
 BuildRequires:    python3-libvirt
 BuildRequires:    python3-munch
+BuildRequires:    python3-openstackclient
 BuildRequires:    python3-pbr >= 2.0.0
 BuildRequires:    python3-flask >= 1.0.2
 BuildRequires:    python3-requests >= 2.14.2
