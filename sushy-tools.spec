@@ -27,14 +27,14 @@ Summary:        %{common_desc}
 BuildRequires:    python2-setuptools
 BuildRequires:    python2-setuptools_scm
 BuildRequires:    python2-devel
-BuildRequires:    python2-pbr >=2.0.0
-BuildRequires:    python2-flask >=1.0.2
-BuildRequires:    python2-requests >=2.14.2
+BuildRequires:    python2-pbr >= 2.0.0
+BuildRequires:    python2-flask >= 1.0.2
+BuildRequires:    python2-requests >= 2.14.2
 BuildRequires:    python2-six >= 1.1.0
 %if %{undefined __pythondist_requires}
-Requires:         python2-pbr >=2.0.0
-Requires:         python2-flask >=1.0.2
-Requires:         python2-requests >=2.14.2
+Requires:         python2-pbr >= 2.0.0
+Requires:         python2-flask >= 1.0.2
+Requires:         python2-requests >= 2.14.2
 Requires:         python2-six >= 1.1.0
 %endif
 
@@ -52,14 +52,14 @@ Summary:          %{common_desc}
 BuildRequires:    python3-setuptools
 BuildRequires:    python3-setuptools_scm
 BuildRequires:    python3-devel
-BuildRequires:    python3-pbr >=2.0.0
-BuildRequires:    python3-flask >=1.0.2
-BuildRequires:    python3-requests >=2.14.2
+BuildRequires:    python3-pbr >= 2.0.0
+BuildRequires:    python3-flask >= 1.0.2
+BuildRequires:    python3-requests >= 2.14.2
 BuildRequires:    python3-six >= 1.1.0
 %if %{undefined __pythondist_requires}
-Requires:         python3-pbr >=2.0.0
-Requires:         python3-flask >=1.0.2
-Requires:         python3-requests >=2.14.2
+Requires:         python3-pbr >= 2.0.0
+Requires:         python3-flask >= 1.0.2
+Requires:         python3-requests >= 2.14.2
 Requires:         python3-six >= 1.9.0
 %endif
 
