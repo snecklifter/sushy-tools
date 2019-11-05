@@ -27,6 +27,8 @@ Summary:        %{common_desc}
 BuildRequires:    python2-setuptools
 BuildRequires:    python2-setuptools_scm
 BuildRequires:    python2-devel
+BuildRequires:    python2-pytest
+BuildRequires:    python2-oslotest
 BuildRequires:    python2-pbr >= 2.0.0
 BuildRequires:    python2-flask >= 1.0.2
 BuildRequires:    python2-requests >= 2.14.2
@@ -52,6 +54,8 @@ Summary:          %{common_desc}
 BuildRequires:    python3-setuptools
 BuildRequires:    python3-setuptools_scm
 BuildRequires:    python3-devel
+BuildRequires:    python3-pytest
+BuildRequires:    python3-oslotest
 BuildRequires:    python3-pbr >= 2.0.0
 BuildRequires:    python3-flask >= 1.0.2
 BuildRequires:    python3-requests >= 2.14.2
