@@ -119,6 +119,8 @@ pytest-%{python2_version}
 %doc README.rst
 %license LICENSE
 %{python2_sitelib}/*
+%{_bindir}/sushy-emulator
+%{_bindir}/sushy-static
 %endif
 
 %if %{with python3}
@@ -126,6 +128,8 @@ pytest-%{python2_version}
 %doc README.rst
 %license LICENSE
 %{python3_sitelib}/*
+%{_bindir}/sushy-emulator
+%{_bindir}/sushy-static
 %endif
 
 
