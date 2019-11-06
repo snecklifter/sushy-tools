@@ -25,7 +25,6 @@ Summary:        %{common_desc}
 %{?python_provide:%python_provide python2-%{pypi_name}}
 
 BuildRequires:    python2-setuptools
-BuildRequires:    python2-setuptools_scm
 BuildRequires:    python2-devel
 BuildRequires:    python2-pytest
 BuildRequires:    python2-oslotest
